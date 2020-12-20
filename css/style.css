@@ -1,0 +1,170 @@
+/* Resetting */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.7em;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h1,
+h2,
+h3 {
+  padding-bottom: 20px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+/* Utility Classes */
+.container {
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 0 0;
+}
+
+.text-primary {
+  color: #f7c08a;
+}
+
+.lead {
+  font-size: 20px;
+}
+
+.btn {
+  color: #fff;
+  font-size: 18px;
+  display: inline-block;
+  background: #333;
+  padding: 13px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #444;
+  color: #f7c08a;
+}
+
+.btn-light {
+  background: #f4f4f4;
+  color: #333;
+}
+
+.bg-dark {
+  background-color: #333;
+  color: #fff;
+}
+
+.bg-light {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.bg-primary {
+  background: #333;
+  color: #f7c08a;
+}
+
+/* Navbar */
+
+#navbar {
+  background-color: #333;
+  color: white;
+  /* you can also do overflow: auto without adding the clearfix class */
+}
+
+.clr {
+  overflow: auto;
+}
+
+#navbar .logo {
+  float: left;
+  padding: 30px;
+}
+
+#navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 900;
+}
+
+#navbar ul {
+  list-style: none;
+  float: right;
+}
+
+#navbar ul li {
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 30px;
+  text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+  background-color: #444;
+  color: #f7c08a;
+}
+
+/* Showcase */
+#showcase {
+  background: url("../img/showcase.jpg") no-repeat center center/cover;
+  height: 600px;
+}
+
+.showcase-content {
+  color: #fff;
+  text-align: center;
+  padding-top: 170px;
+}
+
+#showcase .showcase-content h1 {
+  font-size: 60px;
+  line-height: 1.2em;
+}
+
+#showcase .showcase-content p {
+  margin-bottom: 20px;
+  line-height: 1.7em;
+}
+
+/* Home Info */
+#home-info {
+  height: 400px;
+}
+
+#home-info .info-img {
+  background: url("../img/photo-1.jpg") no-repeat center center/cover;
+  width: 50%;
+  min-height: 100%;
+  float: left;
+}
+
+#home-info .info-content {
+  width: 50%;
+  color: #fff;
+  float: right;
+  height: 100%;
+  text-align: center;
+  padding: 50px 30px;
+  overflow: hidden;
+}
+
+#home-info .info-content p {
+  padding-bottom: 30px;
+}
