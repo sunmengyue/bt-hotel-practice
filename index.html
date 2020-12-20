@@ -10,12 +10,20 @@
     <meta name="keywords" content="hotel, Boston hotel, new england hotel" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700;1,900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/style.css" />
     <title>Hotel Website</title>
+    <!-- <script src="https://kit.fontawesome.com/fd1770fd40.js" crossorigin="anonymous"></script> -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
     <header>
@@ -47,7 +55,7 @@
     <section id="home-info" class="bg-dark">
       <div class="info-img"></div>
       <div class="info-content">
-        <h2><span class="text-primary">The history </span>Of Our Hotel</h3>
+        <h2><span class="text-primary">The history </span>Of Our Hotel</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
           praesentium recusandae cum numquam rem minus at, iure, commodi magni
@@ -55,33 +63,37 @@
           quia commodi, tenetur, dignissimos ex incidunt delectus, nisi
           voluptatem iste voluptas.
         </p>
-        <a href="about.html" class="btn btn-light">Read More</button>
+        <a href="about.html" class="btn btn-light">Read More</a>
       </div>
     </section>
 
-    
-    <section>
-      <h3>Great Location</h3>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam,
-        repudiandae.
-      </p>
+    <section id="features">
+      <div class="box bg-light">
+        <i class="fas fa-hotel fa-3x"></i>
+        <h3>Great Location</h3>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda,
+          minima.
+        </p>
+      </div>
+      <div class="box bg-primary">
+        <i class="fas fa-utensils fa-3x"></i>
+        <h3>Free Meals</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, eum?
+        </p>
+      </div>
+      <div class="box bg-light">
+        <i class="fas fa-dumbbell fa-3x"></i>
+        <h3>Fitness Room</h3>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum, ex.
+        </p>
+      </div>
     </section>
-    <section>
-      <h3>Free Meals</h3>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam,
-        repudiandae.
-      </p>
-    </section>
-    <section>
-      <h3>Fitness Room</h3>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam,
-        repudiandae.
-      </p>
-    </section>
-
-    <footer>Hotel BT &copy; 2019, All Rights Reserved</footer>
+    <div class="clr"></div>
+    <footer id="main-footer">
+      <p>Hotel BT &copy; 2019, All Rights Reserved</p>
+    </footer>
   </body>
 </html>
