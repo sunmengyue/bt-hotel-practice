@@ -31,7 +31,7 @@ p {
   margin: auto;
   max-width: 1100px;
   overflow: auto;
-  padding: 0 0;
+  padding: 0 20px;
 }
 
 .text-primary {
@@ -83,6 +83,7 @@ p {
 
 .l-heading {
   font-size: 35px;
+  line-height: 2rem;
 }
 
 /* Padding */
@@ -106,7 +107,7 @@ p {
 
 #navbar .logo {
   float: left;
-  padding: 30px;
+  padding: 20px;
 }
 
 #navbar a {
@@ -126,7 +127,7 @@ p {
 
 #navbar ul li a {
   display: block;
-  padding: 30px;
+  padding: 20px;
   text-align: center;
 }
 
@@ -220,7 +221,7 @@ p {
 /* Testimonials */
 #testimonials {
   background: url("../img/test-bg.jpg") no-repeat center center/cover;
-  height: 600px;
+  height: 100%;
   padding-top: 100px;
 }
 
